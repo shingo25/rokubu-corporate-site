@@ -1,24 +1,24 @@
 # 株式会社ロクブンノニ 法人Webサイト 完全仕様書 v3.0
-## 投資事業強化・サービス詳細展開版
+## メディア事業中心・全サービス詳細展開版
 
-## 🎯 プロジェクト概要（投資事業強化版）
+## 🎯 プロジェクト概要（メディア事業中心版）
 
 ### 会社概要
 - **会社名**: 株式会社ロクブンノニ
 - **英語名**: Rokubunnoni Inc. / 6BUNNO2 Inc.
 - **ドメイン**: rokubunnoni.com
 - **事業領域**: 
-  - **Crypto Times Ventures**: Web3投資事業（メイン事業）
-  - **Crypto Times**: Web3専門メディア運営
+  - **Crypto Times**: Web3専門メディア運営（主力事業・2018年〜）
+  - **Crypto Times Ventures**: Web3投資事業
   - **コンサルティング**: 戦略策定・トークンエコノミクス設計
   - **開発サービス**: dApp・プロトコル開発
   - **リサーチ**: 市場調査・分析レポート
 
 ### 企業ポジション
-**「Web3投資とエコシステム構築の専門企業」**
-- 投資から運用まで、Web3ビジネスの全フェーズをサポート
-- データドリブンな投資判断とハンズオン支援
-- アジア最大級のWeb3専門メディアとシナジー創出
+**「Web3メディアとエコシステム構築の専門企業」**
+- 2018年から運営する日本最大級のWeb3専門メディア
+- メディアの知見を活かした投資・コンサルティング事業
+- データドリブンなアプローチで業界をリード
 
 ### ミッション・ビジョン・バリュー（空欄：後ほど追記）
 
@@ -98,36 +98,46 @@
    - Mission & Vision & Values
    - Team & Advisors
    - History & Milestones
-3. **Ventures** (/ventures) ← **★主力事業として昇格**
+3. **Media** (/media) ← **★主力事業（Crypto Times）**
+   - About Crypto Times
+   - Editorial Policy
+   - Advertising & Partnership
+   - Media Kit
+4. **Ventures** (/ventures)
    - Investment Philosophy
    - Portfolio Companies
    - Investment Team
    - For Investors (LP向け)
-4. **Services** (/services)
-   - Crypto Times (Media)
+5. **Services** (/services)
    - Consulting Services
    - Development Services
    - Research & Analytics
-5. **Works** (/works)
+6. **Works** (/works)
    - Case Studies
    - Success Stories
    - Client Portfolio
-6. **Insights** (/insights)
-   - Investment Insights
+7. **Insights** (/insights)
    - Market Analysis
    - Technical Research
-7. **Newsroom** (/newsroom)
+   - Industry Reports
+8. **Newsroom** (/newsroom)
    - Press Releases
    - Media Coverage
    - Awards & Recognition
-8. **Contact** (/contact)
+9. **Contact** (/contact)
 
 ### レスポンシブナビゲーション仕様
 
 #### デスクトップ（1024px+）
 ```
 Header Layout:
-[Logo] [About] [Ventures ▼] [Services ▼] [Works] [Insights] [Newsroom] [Contact] [言語切替] [お問い合わせ]
+[Logo] [About] [Media ▼] [Ventures ▼] [Services ▼] [Works] [Insights] [Newsroom] [Contact] [言語切替] [お問い合わせ]
+
+Media Dropdown (主力事業):
+- About Crypto Times
+- Editorial Policy
+- Advertising & Partnership
+- Media Kit
 
 Ventures Dropdown:
 - Investment Philosophy
@@ -136,7 +146,6 @@ Ventures Dropdown:
 - For Investors
 
 Services Dropdown:
-- Crypto Times
 - Consulting Services
 - Development Services
 - Research & Analytics
@@ -334,45 +343,177 @@ Header Layout:
 
 ### 2. Services詳細ページ（各サービス独立）
 
-#### Crypto Times (/services/crypto-times)
-**メディア事業の詳細**
+### 3. Media (/media) - 「主力事業：Crypto Times」
+
+#### About Crypto Times (/media/about)
+**2018年創刊、日本最大級のWeb3専門メディア**
 
 ```
-サービス概要:
-- アジア最大級のWeb3専門メディア
+メディア概要:
+- 創刊: 2018年
+- 業界ポジション: 日本最大級のWeb3専門メディア
 - 月間PV: XXX万（具体的数値）
 - 登録会員数: XX万人
-- 影響力のある読者層
+- 記事数: 10,000本以上
+
+歴史・マイルストーン:
+- 2018年: Crypto Times創刊
+- 2019年: 月間100万PV達成
+- 2020年: DeFi特集で業界をリード
+- 2021年: NFT/GameFi分野の報道強化
+- 2022年: 大手取引所との提携
+- 2023年: AIxWeb3の最先端報道
+- 2024年: RWA・規制動向の専門報道
 
 メディア実績:
-- 創刊年・沿革
-- 主要記事・特集
-- 独占インタビュー実績
-- 業界への影響・引用実績
+- 独占インタビュー: Vitalik Buterin、CZ、Sam Altman等
+- 特集シリーズ: DeFi革命、NFT市場分析、規制動向等
+- 速報実績: 重要プロトコルローンチ、規制発表等
+- 業界初報道: 複数の重要ニュースで業界初報道
 
-読者層分析:
-- デモグラフィック分析
-- 業界関係者の割合
-- 地域別分布
-- エンゲージメント指標
+読者層・影響力:
+- 読者属性:
+  - 投資家・トレーダー: 35%
+  - 開発者・エンジニア: 25%
+  - 事業者・経営者: 20%
+  - 研究者・学生: 10%
+  - その他: 10%
+- 地域分布:
+  - 日本: 60%
+  - アジア: 25%
+  - 欧米: 15%
 
-広告・PR価値:
-- 広告メニュー・料金
-- スポンサードコンテンツ
-- イベント共催・協賛
-- インフルエンサーマーケティング
+編集方針・価値:
+- 正確性: ファクトチェック体制
+- 速報性: 24時間体制での情報収集
+- 専門性: 技術的深度のある解説
+- 中立性: 特定プロジェクトに偏らない報道
+- 教育性: 初心者にも分かりやすい解説
+```
 
-コンテンツ戦略:
-- 編集方針・品質基準
-- 取材ネットワーク
-- 独自情報・データ
-- 多言語展開
+#### Editorial Policy (/media/editorial-policy)
+**編集方針・ジャーナリズム基準**
 
-メディアとしての権威性:
-- 記者・編集者の経歴
-- 業界認定・受賞歴
-- 他媒体からの引用
-- 政府・規制当局との関係
+```
+編集理念:
+- Web3業界の健全な発展に貢献
+- 正確で公正な情報提供
+- 読者の投資判断・事業判断を支援
+- 技術革新と規制のバランスを重視
+
+報道基準:
+1. 正確性の確保
+   - 複数ソースによる裏付け
+   - 専門家によるレビュー
+   - 誤報時の迅速な訂正
+
+2. 中立性・公正性
+   - 広告主からの編集独立
+   - 利益相反の開示
+   - 批判的視点の維持
+
+3. 専門性の追求
+   - 技術的正確性の重視
+   - 業界用語の適切な解説
+   - 深度のある分析記事
+
+4. 倫理規定
+   - インサイダー情報の取り扱い
+   - プライバシー保護
+   - 著作権遵守
+
+コンテンツカテゴリ:
+- ニュース（速報・日次）
+- 分析・解説記事
+- インタビュー・対談
+- 技術解説・チュートリアル
+- 市場レポート
+- 規制・政策分析
+- イベントレポート
+```
+
+#### Advertising & Partnership (/media/advertising)
+**広告・パートナーシップ機会**
+
+```
+広告メニュー:
+1. ディスプレイ広告
+   - トップページバナー
+   - 記事内広告
+   - サイドバー広告
+   - 料金: ¥XXX〜/月
+
+2. スポンサードコンテンツ
+   - PR記事作成・掲載
+   - インタビュー記事
+   - 事例紹介記事
+   - 料金: ¥XXX〜/記事
+
+3. メールマガジン広告
+   - ヘッダー広告
+   - 記事内広告
+   - 専用配信
+   - 料金: ¥XXX〜/配信
+
+4. イベント協賛
+   - カンファレンス共催
+   - ウェビナー開催
+   - ミートアップ支援
+   - 料金: 要相談
+
+パートナーシップ:
+- コンテンツ提携
+- データ連携
+- 共同調査・レポート
+- 海外メディア連携
+
+広告主実績:
+- 国内外大手取引所
+- ブロックチェーンプロジェクト
+- Web3関連企業
+- 金融機関・VC
+
+効果測定:
+- インプレッション数
+- クリック率・CTR
+- コンバージョン追跡
+- ブランドリフト調査
+```
+
+#### Media Kit (/media/media-kit)
+**メディア資料・統計情報**
+
+```
+メディア統計:
+- 月間PV: XX万
+- 月間UU: XX万
+- 平均セッション時間: X分
+- ページ/セッション: X.X
+- リピート率: XX%
+
+ソーシャルメディア:
+- Twitter: XXK フォロワー
+- Telegram: XXK メンバー
+- Discord: XXK メンバー
+- YouTube: XXK 登録者
+
+コンテンツ実績:
+- 月間記事本数: XXX本
+- 独占記事率: XX%
+- 翻訳記事: XX%（英語・中国語）
+- 動画コンテンツ: XX本/月
+
+メディア掲載・引用:
+- 大手メディアからの引用: XXX回
+- テレビ出演: XX回
+- 政府・規制当局への情報提供: XX回
+- 業界レポートでの言及: XX回
+
+ダウンロード資料:
+- メディアガイド（PDF）
+- 料金表（PDF）
+- 読者属性レポート（PDF）
+- 成功事例集（PDF）
 ```
 
 #### Consulting Services (/services/consulting)
@@ -1109,6 +1250,7 @@ LP向け高度機能:
 
 ## 📝 更新履歴
 
+- **v3.1** (2025-07-07): 主力事業をCrypto Times（メディア事業）に修正
 - **v3.0** (2025-07-07): 投資事業強化・サービス詳細展開・ナビゲーション刷新
 - **v2.0** (2025-07-07): 事業内容更新・ドメイン変更・完全改訂版
 - **v1.0** (2025-07-07): 初版作成
@@ -1116,7 +1258,7 @@ LP向け高度機能:
 ---
 
 **作成日**: 2025-07-07  
-**バージョン**: v3.0  
+**バージョン**: v3.1  
 **ドメイン**: rokubunnoni.com  
 **作成者**: Claude Code with Gemini consultation  
-**対象**: 株式会社ロクブンノニ 法人Webサイト（投資事業強化版）
+**対象**: 株式会社ロクブンノニ 法人Webサイト（メディア事業中心版）
